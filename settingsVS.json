@@ -1,0 +1,94 @@
+{
+    "workbench.colorTheme": "Min Dark",
+    "files.autoSave": "afterDelay",
+    "editor.lineHeight": 1.8,
+    "editor.fontSize": 14,
+    "symbols.hidesExplorerArrows": false,
+    "workbench.layoutControl.enabled": false,
+    "editor.fontFamily": "JetBrains Mono",
+    "workbench.startupEditor": "newUntitledFile",
+
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontLigatures": true,
+    "editor.renderLineHighlight": "gutter",
+    "explorer.compactFolders": false,
+    "editor.semanticHighlighting.enabled": false,
+    "breadcrumbs.enabled": false,
+    "editor.minimap.enabled": false,
+    "editor.scrollbar.horizontal": "hidden",
+    "apc.electron": {
+        "titleBarStyle": "hiddenInset"
+    },
+    
+    "apc.header": {
+        "height": 40
+    },
+    
+    "apc.stylesheet": {
+        ".title-label > h2": "display: none",
+        ".editor-actions": "display: none",
+        ".nosidebar .inline-tabs-placeholder": "width: 75px",
+        ".pane-header": "padding: 0 8px",
+        ".pane-body": "padding: 8px",
+        ".split-view-view:first-child .pane-header": "display: none !important;",
+        ".monaco-list-row": "border-radius: 4px;",
+        ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
+    },
+
+    "explorer.fileNesting.patterns": {
+        "*.ts": "${capture}.js",
+        "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+        "*.jsx": "${capture}.js",
+        "*.tsx": "${capture}.ts",
+        "tsconfig.json": "tsconfig.*.json",
+        "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*",
+        "pubspec.yaml": "pubspec.lock,pubspec_overrides.yaml,.packages,.flutter-plugins,.flutter-plugins-dependencies,.metadata",
+        "*.dart": "${capture}.g.dart",
+        "tailwind.config.js": "tailwind.config*, postcss.config*",
+        ".env.local": ".env*",
+        ".env": ".env*",
+        "*.sqlite": "${capture}.${extname}-*",
+        "*.db": "${capture}.${extname}-*",
+        "*.sqlite3": "${capture}.${extname}-*",
+        "*.db3": "${capture}.${extname}-*",
+        "*.sdb": "${capture}.${extname}-*",
+        "*.s3db": "${capture}.${extname}-*"
+    },
+    "editor.wordWrap": "wordWrapColumn",
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    },
+    "dart.flutterCreatePlatforms": [
+        "android",
+        "ios",
+        "web"
+    ],
+    "editor.stickyScroll.enabled": false,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    "files.associations": {
+        "*.html": "html"
+    },
+    "aws.lambda.recentlyUploaded": {
+        "profile:default": {
+            "us-east-1": "lambda_function"
+        }
+    },
+    "window.commandCenter": false,
+    "editor.wordWrapColumn": 154,
+    "git.confirmSync": false,
+    "python.createEnvironment.trigger": "off",
+    "security.workspace.trust.untrustedFiles": "open",
+    "extensions.ignoreRecommendations": true
+    
+}

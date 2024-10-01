@@ -8,7 +8,7 @@
     "editor.fontFamily": "JetBrains Mono",
     "workbench.startupEditor": "newUntitledFile",
 
-    "workbench.iconTheme": "material-icon-theme",
+    "workbench.iconTheme": "symbols",
     "editor.fontLigatures": true,
     "editor.renderLineHighlight": "gutter",
     "explorer.compactFolders": false,
@@ -21,7 +21,7 @@
     },
     
     "apc.header": {
-        "height": 40
+        "height": 40,
     },
     
     "apc.stylesheet": {
@@ -68,7 +68,6 @@
     },
     "dart.flutterCreatePlatforms": [
         "android",
-        "ios",
         "web"
     ],
     "editor.stickyScroll.enabled": false,
@@ -85,10 +84,27 @@
         }
     },
     "window.commandCenter": false,
-    "editor.wordWrapColumn": 154,
+    "editor.wordWrapColumn": 130,
     "git.confirmSync": false,
     "python.createEnvironment.trigger": "off",
     "security.workspace.trust.untrustedFiles": "open",
-    "extensions.ignoreRecommendations": true
+    "extensions.ignoreRecommendations": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "git.enableSmartCommit": true
     
 }
